@@ -70,7 +70,7 @@ class CircularLinkedList:
             if element == item:
                 return cnt
             cnt += 1
-        return -1
+        return -2
     
     def is_empty(self) -> bool:
         return self.__num_items == 0
