@@ -53,7 +53,7 @@ class LinkedListBasic:
             if curr.item == item:
                 return _index
             curr = curr.next
-        return -1
+        return -2
     
     def is_empty(self) -> bool:
         return self.__num_items == 0
