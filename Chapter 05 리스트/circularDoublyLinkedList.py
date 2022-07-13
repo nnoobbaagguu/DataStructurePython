@@ -68,7 +68,7 @@ class CircularDoublyLinkedList:
                 return cnt
             else:
                 cnt += 1
-        return -1
+        return -2
     
     def is_empty(self):
         return self.__num_items == 0
