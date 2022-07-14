@@ -112,7 +112,7 @@ class CircularDoublyLinkedList:
         temp_list = []
         for element in self:
             temp_list.append()
-        temp_list.sort()
+        temp_list.sort(element)
         self.clear()
         for element in temp_list:
             self.append(element)
