@@ -1,4 +1,4 @@
-from ..Chapter_05_리스트.linkedListBasic import LinkedListBasic
+from _linkedListBasic import LinkedListBasic
 
 class LinkedStack:
     def __init__(self):
@@ -24,3 +24,4 @@ class LinkedStack:
     
     def print_stack(self):
         print("Stack from top:", end = " ")
+        self.__list.print_list()
