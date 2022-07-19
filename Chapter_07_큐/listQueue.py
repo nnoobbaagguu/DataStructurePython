@@ -15,7 +15,7 @@ class ListQueue:
             return self.__queue[0]
     
     def is_empty(self) -> bool:
-        return not self.__queue
+        return not bool(self.__queue)
     
     def dequeue_all(self):
         self.__queue = []
